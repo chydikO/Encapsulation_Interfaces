@@ -15,11 +15,11 @@ public class Main {
 
         Transport[] transports = {airplane, car, bicycle, scooter};
         for (Transport transport: transports) {
-            if (transport instanceof Rideable) {
-                ((Rideable) transport).ride();
+            if (transport instanceof Rideable rideable) {
+                rideable.ride();
             }
-            if (transport instanceof Flyable) {
-                ((Flyable) transport).fly();
+            if (transport instanceof Flyable flyable) {
+                flyable.fly();
             }
         }
     }

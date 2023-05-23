@@ -21,7 +21,7 @@ public class Airplane extends Transport implements Flyable {
 
     @Override
     public String toString() {
-        return super.toString() + "Airplane: flight= " + flight;
+        return super.toString() + " Airplane: flight= " + flight;
     }
 
     @Override
